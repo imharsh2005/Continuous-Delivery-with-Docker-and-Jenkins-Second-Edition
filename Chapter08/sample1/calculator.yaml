@@ -29,6 +29,7 @@ spec:
           httpGet:
              path: /sum?a=1&b=2
              port: 8080
+             
 ---
 
 apiVersion: v1
