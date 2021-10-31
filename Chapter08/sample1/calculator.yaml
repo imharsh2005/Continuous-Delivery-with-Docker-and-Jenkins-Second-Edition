@@ -26,10 +26,10 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
-        readinessProbe:
-          httpGet:
-             path: /div?a=5&b=2
-             port: 8080
+        #readinessProbe:
+          #httpGet:
+             #path: /div?a=5&b=2
+             #port: 8080
 ---
 
 apiVersion: v1
