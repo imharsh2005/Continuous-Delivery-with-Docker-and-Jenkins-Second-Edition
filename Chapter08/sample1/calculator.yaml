@@ -22,7 +22,7 @@ spec:
       containers:
       - name: calculator
         #image: imharsh2005/hello-kaniko:1.0
-        image: imharsh2005/calculator
+        image: imharsh2005/calculator:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
