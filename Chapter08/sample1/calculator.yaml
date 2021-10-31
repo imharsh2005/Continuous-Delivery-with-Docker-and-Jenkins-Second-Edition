@@ -21,14 +21,14 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: imharsh2005/hello-kaniko:1.0
-        #image: imharsh2005/calculator:1.0
+        #image: imharsh2005/hello-kaniko:1.0
+        image: imharsh2005/calculator:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
         readinessProbe:
           httpGet:
-             path: /sum?a=5&b=2
+             path: /div?a=5&b=2
              port: 8080
 ---
 
